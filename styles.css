@@ -1,7 +1,7 @@
-#header {
-  font-size: 50px;
+#header2 {
+  /*font-size: 50px;*/
   color: white;
-  background: rgb(188, 185, 9);
+  background: rgb(175, 158, 0);
   font-family: "Abril Fatface";
 
   padding-left: 40px;
@@ -13,42 +13,89 @@
 #home {
   color: white;
   text-decoration: none;
+  font-size: 50px;
 }
 
 #home:hover {
-  background: rgb(153, 150, 0);
+  background: rgb(196, 176, 0);
 }
 
 .headerButton{
+  font-size: 40px;
   float: right;
   color: white;
   text-decoration: none;
   margin-left: 40px;
 }
 .headerButton:hover {
-  background: rgb(153, 150, 0);
+  background: rgb(196, 176, 0);
 }
 
-.blogPost {
+.workPost {
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 10px;
+  margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   background: rgba(225, 188, 188, 0.5);
   font-family: "Source Sans Pro";
+  color: gray;
+  font-size: 17px;
 }
-.blogPost > h1 {
-
+.workPost > h1 {
+  color: gray;
 }
-.blogPost > p {
+.workPost > p {
   font-size: 20px;
-  margin: 100px;
+  margin: 50px;
+}
+.aboutmePost {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: rgba(225, 188, 188, 0.5);
+  font-family: "Source Sans Pro";
+  color: gray;
+  font-size: 17px;
+}
+.aboutmePost > h1 {
+  color: gray;
+}
+.aboutmePost > p {
+  font-size: 20px;
+  margin: 50px;
 }
 
+.indexPost > h1 {
+  color: gray;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  background: rgba(225, 188, 188, 0.5);
+  font-family: "Source Sans Pro";
+  font-size: 35px;
+}
+
+.slick-image
+div {
+    width:300px;
+    height:300px;
+    overflow:hidden;
+}
+div img {
+    min-width:100%;
+}
+
+article {
+  float: left;
+}
 body {
   padding: 0;
-  margin: 0;
+  margin: 0px;
   background-image: url("http://www.americangraniteonline.com/wp-content/uploads/marble-stone.jpg");
 }
